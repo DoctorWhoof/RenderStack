@@ -53,7 +53,7 @@ Class Test Extends Window
 		canvas.DrawRect( 5, 5, width/3, 80 )
 		canvas.Color = Color.White
 		canvas.DrawText( "Time per frame: " + String( ( Microsecs() - lastFrame ) / 1000.0 ).Slice( 0, 6 ) + "ms", 10, 10 )
-		canvas.DrawText( "Render batching: " + ( Cat.batch?"True"Else"False" ), 10, 30 )
+		canvas.DrawText( "Render batching: " + ( Cat.batch?"True"Else"False" ) + " (space bar to change)", 10, 30 )
 		canvas.DrawText( "Total cats: " + totalCats, 10, 50 )
 		lastFrame = Microsecs()
 	End
