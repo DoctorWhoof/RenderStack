@@ -36,6 +36,7 @@ Class Test Extends Window
 			kitty.frame = Rnd(0,16)
 			cats.Push( kitty )
 		Next
+		RenderStack.depthSort = False
 	End
 	
 	Method OnRender( canvas:Canvas ) Override		
