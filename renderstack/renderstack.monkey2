@@ -10,7 +10,7 @@ Using std..
 Class RenderStack
 
 	Global pixelPerfect:= True
-	Global depthSort:= True
+	Global depthSort:= False
 	
 	Private
 	Global items := New Stack< RenderItem >
