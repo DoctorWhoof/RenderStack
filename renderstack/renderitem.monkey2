@@ -23,7 +23,7 @@ Struct RenderItem
 	
 	Field uvs := New Stack< Float >
 	Field verts := New Stack< Float >
-	Field colors := New Stack< UInt >
+'   	Field colors := New Stack< UInt >
 	Field matrix :AffineMat3f
 	
 	Method Update()
